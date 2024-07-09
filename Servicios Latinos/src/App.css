@@ -1,0 +1,13 @@
+import backgroundImage from 
+body{
+    background: #102C57;
+ } 
+
+ .App {
+    text-align: center;
+    height: 100vh;
+    background-image: url(${});
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
