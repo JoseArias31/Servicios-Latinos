@@ -3,3 +3,8 @@
   .social-links a {
     margin: 0 5px;
   }
+
+  .mainContainer{
+    display: flex;
+    justify-content: space-evenly;
+  }

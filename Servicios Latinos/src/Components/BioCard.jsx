@@ -1,4 +1,4 @@
-import React from "react";
+
 import './BioCard.css'; // Si tienes un archivo CSS para estilos adicionales
 import image from '../../src/Jose Arias.jpeg'
 
@@ -18,7 +18,8 @@ function BioCard() {
 
   };
   return (
-    <div className="card" style={{background:'white', paddingTop:'10px', paddingBottom:'10px', paddingLeft:'10px', paddingRight:'10px', justifyContent:'space-between'}}>
+ 
+    <div className="card" style={{background:'white', paddingTop:'10px', paddingBottom:'10px', paddingLeft:'10px', paddingRight:'10px', justifyContent:'space-between', borderRadius:'15px'}}>
       <img src={image} alt="John" style={{ width: "90px", borderRadius:'10px' }} />
       <h2 style={{margin:'0px'}}>Jose Arias</h2>
       <p className="title" style={{margin:'0px'}}>Web Developer</p>
@@ -31,6 +32,7 @@ function BioCard() {
       </div>
       <button style={buttonStyle}>Contacta Me</button>
     </div>
+    
   );
 }
 
